@@ -1,0 +1,128 @@
+body {
+  background-color: #222831;
+}
+
+h1.logo{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #EEEEEE;
+  padding-left: 60px;
+}
+
+div.navbarwrapper {
+  display: inline-flex;
+  background-color: #393E46;
+  width: 100%;
+}
+
+div .navbarlist {
+  display: inline-flex;
+  list-style: none;
+  margin: auto;
+  font-family: "Nunito", sans-serif;
+  font-size: 24px;
+  color: #EEEEEE;
+
+}
+
+a.aboutus, a.history {
+  color: #EEEEEE;
+  text-decoration: none;
+}
+
+a.aboutus:hover, a.history:hover {
+  color: #00ADB6;
+  transition: color ease 0.7s;
+}
+
+a.test {
+  color: #EEEEEE;
+  text-decoration: none;
+}
+
+a.test:hover {
+  color: #00ADB6;
+  transition: cololor ease 0.7s;
+}
+
+#testbutton:hover {
+  background-color: #EEEEEE;
+  transition: background-color ease 0.7s;
+}
+
+#about, #history, #test {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#testbutton {
+  background-color: #00ADB6;
+  color: #EEEEEE;
+  font-family: "Nunito", sans-serif;
+  font-size: 24px;
+  height: 50px;
+  width: 174px;
+  border-radius: 50px;
+  border: none;
+}
+
+div .textbox {
+  display: flexbox;
+  max-width: 1080px;
+  margin: auto;
+}
+
+h1.headline {
+  font-family: "Nunito", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #EEEEEE;
+  max-width: 361px;
+  margin: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 110px;
+}
+
+h2.subtitle {
+  font-family: "Nunito", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color:#EEEEEE;
+  max-width: 361px;
+  margin: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+}
+
+#testnow {
+  background-color: #00ADB6;
+  width: 240px;
+  height: 85px;
+  border: none;
+  border-radius: 13px;
+}
+
+a.testnow {
+  font-family: "Nunito", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #EEEEEE;
+}
+
+a.testnow:hover {
+  color: #00ADB6;
+  transition: color ease 2s;
+}
+
+#testnow:hover {
+  background-color: #EEEEEE;
+  transition: background-color ease 2s;
+}
+
+#chatbotimg {
+  border-radius: 6px;
+}
