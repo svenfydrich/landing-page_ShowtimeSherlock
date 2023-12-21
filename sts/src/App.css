@@ -32,7 +32,7 @@ a.aboutus, a.history {
 }
 
 a.aboutus:hover, a.history:hover {
-  color: #3A86FFFF;
+  color: #FFC300;
   transition: color ease 0.7s;
 }
 
@@ -41,14 +41,9 @@ a.test {
   text-decoration: none;
 }
 
-a.test:hover {
-  color: #3A86FFFF;
-  transition: cololor ease 0.7s;
-}
-
 #testbutton:hover {
-  background-color: #EEEEEE;
-  transition: background-color ease 0.7s;
+  background-color: #3A86FFFF;
+  transition: background-color ease-out 0.3s;
 }
 
 #about, #history, #test {
@@ -57,7 +52,7 @@ a.test:hover {
 }
 
 #testbutton {
-  background-color: #3A86FFFF;
+  background-color: #FFC300;
   color: #EEEEEE;
   font-family: "Nunito", sans-serif;
   font-size: 24px;
@@ -98,7 +93,7 @@ h2.subtitle {
 }
 
 #testnow {
-  background-color: #3A86FFFF;
+  background-color: #FFC300;
   width: 240px;
   height: 85px;
   border: none;
@@ -113,14 +108,9 @@ a.testnow {
   color: #EEEEEE;
 }
 
-a.testnow:hover {
-  color: #3A86FFFF;
-  transition: color ease 2s;
-}
-
 #testnow:hover {
-  background-color: #EEEEEE;
-  transition: background-color ease 2s;
+  background-color: #3A86FFFF;
+  transition: background-color ease-out 0.3s;
 }
 
 #chatbotimg {
