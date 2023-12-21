@@ -32,7 +32,7 @@ a.aboutus, a.history {
 }
 
 a.aboutus:hover, a.history:hover {
-  color: #00ADB6;
+  color: #3A86FFFF;
   transition: color ease 0.7s;
 }
 
@@ -42,7 +42,7 @@ a.test {
 }
 
 a.test:hover {
-  color: #00ADB6;
+  color: #3A86FFFF;
   transition: cololor ease 0.7s;
 }
 
@@ -57,7 +57,7 @@ a.test:hover {
 }
 
 #testbutton {
-  background-color: #00ADB6;
+  background-color: #3A86FFFF;
   color: #EEEEEE;
   font-family: "Nunito", sans-serif;
   font-size: 24px;
@@ -98,7 +98,7 @@ h2.subtitle {
 }
 
 #testnow {
-  background-color: #00ADB6;
+  background-color: #3A86FFFF;
   width: 240px;
   height: 85px;
   border: none;
@@ -114,7 +114,7 @@ a.testnow {
 }
 
 a.testnow:hover {
-  color: #00ADB6;
+  color: #3A86FFFF;
   transition: color ease 2s;
 }
 
