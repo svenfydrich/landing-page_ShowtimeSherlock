@@ -1,5 +1,20 @@
 body {
+  background-image: url('./assets/background_dark.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
   background-color: #222831;
+  margin: 0px;
+  padding: 0px;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+#minilogo {
+  display: none;
 }
 
 h1.logo{
@@ -122,6 +137,31 @@ a.testnow {
   transition: background-color ease-out 0.3s;
 }
 
+#tablettest {
+  display: none;
+  background-color: #FFC300;
+  width: 240px;
+  height: 85px;
+  border: none;
+  border-radius: 13px;
+  align-self: flex-start;
+  margin-left: 90px;
+}
+
+a.tablettest {
+  font-family: "Nunito", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #EEEEEE;
+  margin: auto;
+}
+
+#tablettest:hover {
+  background-color: #3A86FFFF;
+  transition: background-color ease-out 0.3s;
+}
+
 #chatbotimg {
   border-radius: 6px;
 }
@@ -152,47 +192,88 @@ a.testnow {
 
 
 @media only screen and (max-width: 1080px) {
+  #minilogo {
+    display: flex;
+  }
+  
   h1.logo {
-    font-size: 30px;
-    padding-left: 20px;
+    display: none;
   }
 
   div.navbarwrapper {
     flex-direction: column;
     align-items: center;
+    min-width: 500px;
   }
 
-  div .navbarlist {
-    margin: 10px 0;
+  
+
+  div.navbarlist {
+    margin: 0px;
   }
 
   li#about,
   li#history,
   li#test {
-    margin: 0;
+    margin: 0 10px;
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  button#testbutton {
+    width: 140px;
+    height: 40px;
   }
 
   #testbutton {
     margin-left: 0;
+    font-size: 20px;
   }
 
   div.textbox {
+    display: flex;
     flex-direction: column;
+    margin: auto;
+    align-items: center;
+    padding-top: 50px;
+    min-width: 500px;
   }
 
-  h1.headline,
+  div.text-content {
+    display: flex;
+    margin: auto;
+    padding: 0;
+  }
+
+  h1.headline {
+    font-size: 38px;
+    max-width: 300px;
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+  }
+
   h2.subtitle {
-    margin-left: 20px;
-    margin-right: 20px;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
   }
 
   #testnow {
-    margin-left: 0;
+    display: none;
+  }
+  
+  #tablettest {
+    display: flex;
+    margin: auto;
   }
 
   .image-container {
-    max-width: 100%;
-    margin-top: 20px;
+    max-width: 500px;
+    margin: auto;
+    align-items: center;
+    padding-top: 50px;
   }
 }
 
@@ -227,8 +308,8 @@ a.testnow {
 
   h1.headline,
   h2.subtitle {
-    margin-left: 10px;
-    margin-right: 10px;
+    display: flex;
+    align-items: center;
   }
 
   #testnow {
