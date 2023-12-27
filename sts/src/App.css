@@ -17,7 +17,7 @@ div.navbarwrapper {
 }
 
 div .navbarlist {
-  display: inline-flex;
+  display: flex;
   list-style: none;
   margin: auto;
   font-family: "Nunito", sans-serif;
@@ -26,9 +26,17 @@ div .navbarlist {
 
 }
 
+li#about, li#history {
+  display: flex;
+  align-items: center;
+
+}
+
 a.aboutus, a.history {
   color: #EEEEEE;
+  display: flex;
   text-decoration: none;
+  align-items: center;
 }
 
 a.aboutus:hover, a.history:hover {
@@ -62,8 +70,8 @@ a.test {
   border: none;
 }
 
-div .textbox {
-  display: flexbox;
+div.textbox {
+  display: flex;
   max-width: 1080px;
   margin: auto;
 }
@@ -74,10 +82,10 @@ h1.headline {
   font-weight: 700;
   color: #EEEEEE;
   max-width: 361px;
-  margin: auto;
+  margin-left: 60px;
+  margin-right: 60px;
   padding-left: 30px;
   padding-right: 30px;
-  padding-top: 110px;
 }
 
 h2.subtitle {
@@ -86,10 +94,9 @@ h2.subtitle {
   font-weight: 400;
   color:#EEEEEE;
   max-width: 361px;
-  margin: auto;
+  margin-left: 60px;
   padding-left: 30px;
   padding-right: 30px;
-  padding-top: 30px;
 }
 
 #testnow {
@@ -98,6 +105,8 @@ h2.subtitle {
   height: 85px;
   border: none;
   border-radius: 13px;
+  align-self: flex-start;
+  margin-left: 90px;
 }
 
 a.testnow {
@@ -115,4 +124,119 @@ a.testnow {
 
 #chatbotimg {
   border-radius: 6px;
+}
+
+.divider {
+  flex-grow: 1;
+}
+
+.textbox {
+  display: flex;
+  max-width: 1080px;
+  margin: auto;
+}
+
+.text-content {
+  flex-grow: 1;
+  max-width: 50%;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.image-container {
+  max-width: 50%;
+  margin-top: 100px;
+}
+
+
+@media only screen and (max-width: 1080px) {
+  h1.logo {
+    font-size: 30px;
+    padding-left: 20px;
+  }
+
+  div.navbarwrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  div .navbarlist {
+    margin: 10px 0;
+  }
+
+  li#about,
+  li#history,
+  li#test {
+    margin: 0;
+  }
+
+  #testbutton {
+    margin-left: 0;
+  }
+
+  div.textbox {
+    flex-direction: column;
+  }
+
+  h1.headline,
+  h2.subtitle {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #testnow {
+    margin-left: 0;
+  }
+
+  .image-container {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  h1.logo {
+    font-size: 24px;
+  }
+
+  div.navbarwrapper {
+    padding: 10px;
+  }
+
+  div .navbarlist {
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+  }
+
+  li#about,
+  li#history,
+  li#test {
+    margin: 0;
+  }
+
+  #testbutton {
+    margin-left: 0;
+  }
+
+  div.textbox {
+    flex-direction: column;
+  }
+
+  h1.headline,
+  h2.subtitle {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  #testnow {
+    margin-left: 0;
+  }
+
+  .image-container {
+    max-width: 100%;
+    margin-top: 10px;
+  }
 }
