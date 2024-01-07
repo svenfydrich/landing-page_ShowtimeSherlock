@@ -1,9 +1,9 @@
 body {
   background-image: url('./assets/background_dark.png');
   background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
   background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
   background-color: #222831;
   margin: 0px;
   padding: 0px;
