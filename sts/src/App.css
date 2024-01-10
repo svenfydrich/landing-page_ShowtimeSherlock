@@ -17,6 +17,11 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+ul.navbarlist {
+  padding: 0;
+  margin: auto;
+}
+
 h1.logo{
   font-family: "Poppins", sans-serif;
   font-weight: 700;
@@ -31,6 +36,11 @@ div.navbarwrapper {
   width: 100%;
 }
 
+div .listwrapper {
+  display: flex;
+  margin: auto;
+}
+
 div .navbarlist {
   display: flex;
   list-style: none;
@@ -41,20 +51,20 @@ div .navbarlist {
 
 }
 
-li#about, li#history {
+li#about, li#github {
   display: flex;
   align-items: center;
 
 }
 
-a.aboutus, a.history {
+a.aboutus, a.github {
   color: #EEEEEE;
   display: flex;
   text-decoration: none;
   align-items: center;
 }
 
-a.aboutus:hover, a.history:hover {
+a.aboutus:hover, a.github:hover {
   color: #FFC300;
   transition: color ease 0.7s;
 }
@@ -69,7 +79,7 @@ a.test {
   transition: background-color ease-out 0.3s;
 }
 
-#about, #history, #test {
+#about, #github, #test {
   padding-left: 30px;
   padding-right: 30px;
 }
@@ -112,6 +122,7 @@ h2.subtitle {
   margin-left: 60px;
   padding-left: 30px;
   padding-right: 30px;
+  padding-bottom: 90px;
 }
 
 #testnow {
@@ -170,7 +181,7 @@ a.tablettest {
   flex-grow: 1;
 }
 
-.textbox {
+div.textbox {
   display: flex;
   max-width: 1080px;
   margin: auto;
@@ -190,11 +201,11 @@ a.tablettest {
   margin-top: 100px;
 }
 
-
 @media only screen and (max-width: 1080px) {
   #minilogo {
     display: flex;
     width: 100px;
+    margin: auto;
   }
   
   h1.logo {
@@ -207,18 +218,21 @@ a.tablettest {
     min-width: 500px;
   }
 
-  
+  div.listwrapper{
+    display: flex;
+    margin: auto;
+  }
 
   div.navbarlist {
     margin: 0px;
   }
 
   li#about,
-  li#history,
+  li#github,
   li#test {
     margin: 0 10px;
     padding: 10px;
-    font-size: 20px;
+    font-size: 24px;
   }
 
   button#testbutton {
@@ -252,6 +266,7 @@ a.tablettest {
     margin: 0;
     padding: 0;
     padding-top: 50px;
+    flex-grow: 1;
   }
 
   h2.subtitle {
@@ -272,9 +287,14 @@ a.tablettest {
 
   .image-container {
     max-width: 500px;
-    margin: auto;
     align-items: center;
+    margin: auto;
     padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  #chatbotimg {
+    width: 400px;
   }
 }
 
@@ -284,41 +304,84 @@ a.tablettest {
   }
 
   div.navbarwrapper {
-    padding: 10px;
-  }
-
-  div .navbarlist {
     flex-direction: column;
     align-items: center;
-    margin: 10px 0;
+    min-width: 500px;
+  }
+
+  div.listwrapper{
+    display: flex;
+    margin: auto;
+  }
+
+  div.navbarlist {
+    margin: 0px;
   }
 
   li#about,
-  li#history,
+  li#github,
   li#test {
-    margin: 0;
+    margin: 0 10px;
+    padding: 10px;
+    font-size: 24px;
+  }
+
+  button#testbutton {
+    width: 140px;
+    height: 40px;
   }
 
   #testbutton {
     margin-left: 0;
+    font-size: 20px;
   }
 
   div.textbox {
+    display: flex;
     flex-direction: column;
+    margin: auto;
+    align-items: center;
+    padding-top: 50px;
+    min-width: 500px;
   }
 
-  h1.headline,
+  div.text-content {
+    margin: auto;
+    padding: 0;
+  }
+
+  h1.headline {
+    font-size: 38px;
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+  }
+
   h2.subtitle {
-    display: flex;
-    align-items: center;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
   }
 
   #testnow {
-    margin-left: 0;
+    display: none;
+  }
+  
+  #tablettest {
+    display: flex;
+    margin: auto;
   }
 
   .image-container {
-    max-width: 100%;
-    margin-top: 10px;
+    max-width: 500px;
+    align-items: center;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  #chatbotimg {
+    width: 400px;
   }
 }

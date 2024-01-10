@@ -9,25 +9,27 @@ function App() {
         <div className="navbarwrapper">
           <h1 className="logo">ShowtimeSherlock</h1>
           <img src={logo} alt='Logo' id='minilogo'></img>
-          <ul className="navbarlist">
-            <li id="about">
-              <a href="https://github.com/ID-Start-Winter23/ShowtimeSherlock/wiki/ShowtimeSherlock-Home" className="aboutus">
-                Über uns
-              </a>
-            </li>
-            <li id="history">
-              <a href="https://github.com/ID-Start-Winter23/ShowtimeSherlock" className="history">
-                GitHub
-              </a>
-            </li>
-            <li id="test">
-              <button id="testbutton">
-                <a href='#tablettest' className="test">
-                  TESTEN
+          <div className="listwrapper">
+            <ul className="navbarlist">
+              <li id="about">
+                <a href="https://github.com/ID-Start-Winter23/ShowtimeSherlock/wiki/ShowtimeSherlock-Home" className="aboutus">
+                  Über uns
                 </a>
-              </button>
-            </li>
-          </ul>
+              </li>
+              <li id="github">
+                <a href="https://github.com/ID-Start-Winter23/ShowtimeSherlock" className="github">
+                  GitHub
+                </a>
+              </li>
+              <li id="test">
+                <button id="testbutton">
+                  <a href='#tablettest' className="test">
+                    TESTEN
+                  </a>
+                </button>
+              </li>
+            </ul>
+          </div>
         </div>
       </header>
       <body>
