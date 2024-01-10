@@ -17,11 +17,6 @@ body::-webkit-scrollbar {
   display: none;
 }
 
-ul.navbarlist {
-  padding: 0;
-  margin: auto;
-}
-
 h1.logo{
   font-family: "Poppins", sans-serif;
   font-weight: 700;
@@ -34,21 +29,19 @@ div.navbarwrapper {
   display: inline-flex;
   background-color: #393E46;
   width: 100%;
+  text-align: right;
 }
 
-div .listwrapper {
-  display: flex;
-  margin: auto;
-}
 
 div .navbarlist {
   display: flex;
   list-style: none;
-  margin: auto;
+  margin-top: auto;
+  margin-left: auto;
   font-family: "Nunito", sans-serif;
   font-size: 24px;
   color: #EEEEEE;
-
+  text-align: right;
 }
 
 li#about, li#github {
@@ -201,11 +194,26 @@ div.textbox {
   margin-top: 100px;
 }
 
+footer {
+  background-color: #1f2227;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
 @media only screen and (max-width: 1080px) {
+  body::-webkit-scrollbar {
+    display: none;
+  }
+  
   #minilogo {
     display: flex;
     width: 100px;
     margin: auto;
+    padding-top: 10px;
   }
   
   h1.logo {
@@ -224,7 +232,21 @@ div.textbox {
   }
 
   div.navbarlist {
-    margin: 0px;
+    display: flex;
+    list-style: none;
+    margin-left: 0;
+    font-family: "Nunito", sans-serif;
+    font-size: 24px;
+    color: #EEEEEE;
+    text-align: center;
+    margin-top: 0;
+    margin: auto;
+  }
+
+  ul.navbarlist {
+    display: flex;
+    margin: auto;
+    padding-bottom: 10px;
   }
 
   li#about,
@@ -376,6 +398,7 @@ div.textbox {
     align-items: center;
     padding-top: 50px;
     min-width: 500px;
+    padding-bottom: 100px;
   }
 
   div.text-content {
@@ -398,11 +421,13 @@ div.textbox {
     padding-top: 20px;
   }
 
-  #testnow {
+  button#testnow {
     display: none;
   }
   
-  #tablettest {
+ 
+
+  button#tablettest {
     display: flex;
     margin: auto;
   }

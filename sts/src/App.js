@@ -9,7 +9,6 @@ function App() {
         <div className="navbarwrapper">
           <h1 className="logo">ShowtimeSherlock</h1>
           <img src={logo} alt='Logo' id='minilogo'></img>
-          <div className="listwrapper">
             <ul className="navbarlist">
               <li id="about">
                 <a href="https://github.com/ID-Start-Winter23/ShowtimeSherlock/wiki/ShowtimeSherlock-Home" className="aboutus">
@@ -29,7 +28,6 @@ function App() {
                 </button>
               </li>
             </ul>
-          </div>
         </div>
       </header>
       <body>
@@ -49,13 +47,16 @@ function App() {
           <div className="image-container">
             <img src={chatbotImage} alt="Hier ist der Chatbot zu erkennen." id="chatbotimg" />
           </div>
-          <button id="tablettest">
-              <a href='https://svenfydrich-showtimesherlock.hf.space/' className="tablettest">
-                Jetzt testen
-              </a>{' '}
-            </button>
+            <button id="tablettest">
+                <a href='https://svenfydrich-showtimesherlock.hf.space/' className="tablettest">
+                  Jetzt testen
+                </a>{' '}
+              </button>
         </div>
       </body>
+      <footer>
+          &copy; 2024 ShowtimeSherlock. Alle Rechte vorbehalten.
+      </footer>
     </div>
   );
 }
