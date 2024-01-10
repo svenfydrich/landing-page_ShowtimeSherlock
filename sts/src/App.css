@@ -37,6 +37,7 @@ div .navbarlist {
   display: flex;
   list-style: none;
   margin-top: auto;
+  margin-bottom: auto;
   margin-left: auto;
   font-family: "Nunito", sans-serif;
   font-size: 24px;
