@@ -23,7 +23,7 @@ function App() {
               </li>
               <li id="test">
                 <button id="testbutton">
-                  <a href='#tablettest' className="test">
+                  <a href='https://svenfydrich-showtimesherlock.hf.space/' className="test">
                     TESTEN
                   </a>
                 </button>

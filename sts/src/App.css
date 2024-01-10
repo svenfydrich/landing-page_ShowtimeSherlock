@@ -298,6 +298,39 @@ div.textbox {
   }
 }
 
+@media only screen and (max-width: 715px) {
+  
+  div.textbox {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    padding-top: 50px;
+    min-width: 500px;
+  }
+
+  div.text-content {
+    margin: auto;
+    padding: 0;
+    text-align: center;
+  }
+  
+  h1.headline {
+    font-size: 35px;
+    margin: auto;
+    padding: 0;
+    padding-top: 50px;
+  }
+
+  h2.subtitle {
+    font-size: 20px;
+    margin: auto;
+    padding: 0;
+    padding-top: 20px;
+  }
+
+}
+
 @media only screen and (max-width: 480px) {
   h1.logo {
     font-size: 24px;
@@ -348,18 +381,19 @@ div.textbox {
   div.text-content {
     margin: auto;
     padding: 0;
+    text-align: center;
   }
 
   h1.headline {
-    font-size: 38px;
-    margin: 0;
+    font-size: 35px;
+    margin: auto;
     padding: 0;
     padding-top: 50px;
   }
 
   h2.subtitle {
-    font-size: 22px;
-    margin: 0;
+    font-size: 20px;
+    margin: auto;
     padding: 0;
     padding-top: 20px;
   }
