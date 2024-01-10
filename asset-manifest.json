@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/landing-page_ShowtimeSherlock/static/css/main.bd8e3df3.css",
-    "main.js": "/landing-page_ShowtimeSherlock/static/js/main.cb229fdb.js",
-    "static/media/chatbot.png": "/landing-page_ShowtimeSherlock/static/media/chatbot.28157e844e168d577960.png",
+    "main.css": "/landing-page_ShowtimeSherlock/static/css/main.9a7b4c34.css",
+    "main.js": "/landing-page_ShowtimeSherlock/static/js/main.49a42f0e.js",
+    "static/media/logo.gif": "/landing-page_ShowtimeSherlock/static/media/logo.5074212657c2ff882899.gif",
+    "static/media/chatbot.png": "/landing-page_ShowtimeSherlock/static/media/chatbot.6695c2c48c0f61ccf89c.png",
     "static/media/background_dark.png": "/landing-page_ShowtimeSherlock/static/media/background_dark.8b854cd8213db84bc7e6.png",
     "index.html": "/landing-page_ShowtimeSherlock/index.html",
-    "main.bd8e3df3.css.map": "/landing-page_ShowtimeSherlock/static/css/main.bd8e3df3.css.map",
-    "main.cb229fdb.js.map": "/landing-page_ShowtimeSherlock/static/js/main.cb229fdb.js.map"
+    "main.9a7b4c34.css.map": "/landing-page_ShowtimeSherlock/static/css/main.9a7b4c34.css.map",
+    "main.49a42f0e.js.map": "/landing-page_ShowtimeSherlock/static/js/main.49a42f0e.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd8e3df3.css",
-    "static/js/main.cb229fdb.js"
+    "static/css/main.9a7b4c34.css",
+    "static/js/main.49a42f0e.js"
   ]
 }
