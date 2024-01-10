@@ -1,6 +1,6 @@
 import './App.css';
 import chatbotImage from './assets/chatbot.png';
-import logo from './assets/logo.png'
+import logo from './assets/logo.gif'
 
 function App() {
   return (
@@ -11,13 +11,13 @@ function App() {
           <img src={logo} alt='Logo' id='minilogo'></img>
           <ul className="navbarlist">
             <li id="about">
-              <a href="#aboutus" className="aboutus">
+              <a href="https://github.com/ID-Start-Winter23/ShowtimeSherlock/wiki/ShowtimeSherlock-Home" className="aboutus">
                 Über uns
               </a>
             </li>
             <li id="history">
-              <a href="#history" className="history">
-                Geschichte
+              <a href="https://github.com/ID-Start-Winter23/ShowtimeSherlock" className="history">
+                GitHub
               </a>
             </li>
             <li id="test">
