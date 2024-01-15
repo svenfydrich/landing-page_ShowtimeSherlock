@@ -11,8 +11,8 @@ function App() {
           <img src={logo} alt='Logo' id='minilogo'></img>
             <ul className="navbarlist">
               <li id="about">
-                <a href="https://github.com/ID-Start-Winter23/ShowtimeSherlock/wiki/ShowtimeSherlock-Home" className="aboutus">
-                  Über uns
+                <a href="https://github.com/ID-Start-Winter23/ShowtimeSherlock/wiki/Ideation-und-Sprint-1" className="aboutus">
+                  History
                 </a>
               </li>
               <li id="github">
@@ -22,7 +22,7 @@ function App() {
               </li>
               <li id="test">
                 <button id="testbutton">
-                  <a href='https://svenfydrich-showtimesherlock.hf.space/' className="test">
+                  <a href='https://huggingface.co/spaces/leahaller/ShowtimeSherlock' className="test">
                     TESTEN
                   </a>
                 </button>
@@ -39,7 +39,7 @@ function App() {
               Kunstausstellungen.
             </h2>
             <button id="testnow">
-              <a href='https://svenfydrich-showtimesherlock.hf.space/' className="testnow">
+              <a href='https://huggingface.co/spaces/leahaller/ShowtimeSherlock' className="testnow">
                 Jetzt testen
               </a>{' '}
             </button>
@@ -48,7 +48,7 @@ function App() {
             <img src={chatbotImage} alt="Hier ist der Chatbot zu erkennen." id="chatbotimg" />
           </div>
             <button id="tablettest">
-                <a href='https://svenfydrich-showtimesherlock.hf.space/' className="tablettest">
+                <a href='https://huggingface.co/spaces/leahaller/ShowtimeSherlock' className="tablettest">
                   Jetzt testen
                 </a>{' '}
               </button>
