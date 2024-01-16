@@ -22,7 +22,7 @@ function App() {
               </li>
               <li id="test">
                 <button id="testbutton">
-                  <a href='https://huggingface.co/spaces/leahaller/ShowtimeSherlock' className="test">
+                  <a href='https://leahaller-showtimesherlock.hf.space/' className="test">
                     TESTEN
                   </a>
                 </button>
@@ -39,7 +39,7 @@ function App() {
               Kunstausstellungen.
             </h2>
             <button id="testnow">
-              <a href='https://huggingface.co/spaces/leahaller/ShowtimeSherlock' className="testnow">
+              <a href='https://leahaller-showtimesherlock.hf.space/' className="testnow">
                 Jetzt testen
               </a>{' '}
             </button>
@@ -48,7 +48,7 @@ function App() {
             <img src={chatbotImage} alt="Hier ist der Chatbot zu erkennen." id="chatbotimg" />
           </div>
             <button id="tablettest">
-                <a href='https://huggingface.co/spaces/leahaller/ShowtimeSherlock' className="tablettest">
+                <a href='https://leahaller-showtimesherlock.hf.space/' className="tablettest">
                   Jetzt testen
                 </a>{' '}
               </button>
