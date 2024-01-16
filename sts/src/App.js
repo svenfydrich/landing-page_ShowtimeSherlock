@@ -11,7 +11,7 @@ function App() {
           <img src={logo} alt='Logo' id='minilogo'></img>
             <ul className="navbarlist">
               <li id="about">
-                <a href="https://github.com/ID-Start-Winter23/ShowtimeSherlock/wiki/Ideation-und-Sprint-1" className="aboutus">
+                <a href="https://github.com/ID-Start-Winter23/ShowtimeSherlock/wiki" className="aboutus">
                   History
                 </a>
               </li>
